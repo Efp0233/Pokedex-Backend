@@ -8,14 +8,12 @@ NOTA: Es Necesario tener instalado NodeJs en tu Computadora https://nodejs.org/e
 NOTA: esperar a tener tanto la carpeta Frontend como La carpeta Backend en la Carpeta Llamada PokedexManager
 
 Primero que nada En tu Computadora Crea una carpeta llamada PokedexManager
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/tuusuario/pokedex-manager-backend.git
-2. en caso de descargar el repositorio "backend" descomprimelo y guarda la carpeta backend dentro de la carpeta PokedexManager
-3. abre tu carpeta PokedexManager
-4. abre una termial ya que estes dentro de la carpeta Pokedex Manager
-5. en la termial ejecuta el comando "npm install" para que instale todas las dependencias.
-6. crea un archivo .env en la raiz de la carpeta backend y llenalo los siguientes campos
+
+1. descargar el repositorio "backend" descomprimelo y guarda la carpeta backend dentro de la carpeta PokedexManager
+2. abre tu carpeta PokedexManager
+3. abre una termial ya que estes dentro de la carpeta Pokedex Manager
+4. en la termial ejecuta el comando "npm install" para que instale todas las dependencias.
+5. crea un archivo .env en la raiz de la carpeta backend y llenalo los siguientes campos
 
 Nota: para obtener tu mongoDb_uri es necesario registrarte en Mongodb Atlas https://www.mongodb.com/ y haber descargado MongoDbCompass
 Despues de haber creado tu cuenta y haber iniciado sesion te redirigira a un panel donde vas a crear un cluster (create a Cluster) vas a seleccionar el plan gratis y dejar las opciones por default , despues click a Create a cluster
