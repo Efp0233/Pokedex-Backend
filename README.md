@@ -9,14 +9,18 @@ NOTA: esperar a tener tanto la carpeta Frontend como La carpeta Backend en la Ca
 NOTA: 📧 La URI real se enviara por correo o vía privada, no se incluye en el repo por seguridad para que tenga acceso a la Base de datos con su estructura y datos de prueba despues de obtenerla pegarla en el .env y en compass es caso que se quiera ver la estructura
 
 
-Primero que nada En tu Computadora Crea una carpeta llamada PokedexManager
+NOTA: Por si no lo viste , Primero que nada En tu Computadora Crea una carpeta llamada PokedexManager y abrela con VScode
 
-1. descargar el repositorio "backend" descomprimelo y guarda la carpeta backend dentro de la carpeta PokedexManager
+1. si lo quieres hacer manual descarga el repositorio "pokedex-backend" descomprimelo y guardalo dentro la carpeta PokedexManager o si lo vas a descargar por comando git espera al paso 4
 2. abre tu carpeta PokedexManager
 3. abre una termial ya que estes dentro de la carpeta Pokedex Manager
-4. en la terminal ejecuta el comando "cd backend" para situarte en la carpeta backend
-5. en la termial ejecuta el comando "npm install" para que instale todas las dependencias.
-6. crea un archivo .env en la raiz de la carpeta backend y llena los respectivos campos
+4. ejecuta el comando que descargara el repositorio pokedex-frontend.git en caso de que no lo hayas descargado manualmente
+```bash
+git clone https://github.com/Efp0233/Pokedex-backend.git
+```
+5. en la terminal ejecuta el comando "cd pokedex-backend" para situarte en la carpeta pokedex-backend
+6. en la termial ya situado en pokedex-backend ejecuta el comando "npm install" para que instale todas las dependencias.
+7. crea un archivo .env en la raiz de la carpeta backend y llena los respectivos campos o renombra el .env.example quitando el .example en el nombre
 
 Nota: para obtener tu mongoDb_uri es necesario registrarte en Mongodb Atlas https://www.mongodb.com/ y haber descargado MongoDbCompass
 Despues de haber creado tu cuenta y haber iniciado sesion te redirigira a un panel donde vas a crear un cluster (create a Cluster) vas a seleccionar el plan gratis y dejar las opciones por default , despues click a Create a cluster
