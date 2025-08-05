@@ -14,8 +14,9 @@ Primero que nada En tu Computadora Crea una carpeta llamada PokedexManager
 1. descargar el repositorio "backend" descomprimelo y guarda la carpeta backend dentro de la carpeta PokedexManager
 2. abre tu carpeta PokedexManager
 3. abre una termial ya que estes dentro de la carpeta Pokedex Manager
-4. en la termial ejecuta el comando "npm install" para que instale todas las dependencias.
-5. crea un archivo .env en la raiz de la carpeta backend y llenalo los siguientes campos
+4. en la terminal ejecuta el comando "cd backend" para situarte en la carpeta backend
+5. en la termial ejecuta el comando "npm install" para que instale todas las dependencias.
+6. crea un archivo .env en la raiz de la carpeta backend y llena los respectivos campos
 
 Nota: para obtener tu mongoDb_uri es necesario registrarte en Mongodb Atlas https://www.mongodb.com/ y haber descargado MongoDbCompass
 Despues de haber creado tu cuenta y haber iniciado sesion te redirigira a un panel donde vas a crear un cluster (create a Cluster) vas a seleccionar el plan gratis y dejar las opciones por default , despues click a Create a cluster
@@ -32,7 +33,7 @@ despues en el panel izquierdo iras a Cluster -> TuCluster -> connect -> compass 
 
 ```
 ```bash
-//env
+// /backend/.env
 MONGO_URI=your_mongodb_uri
 JWT_SECRET=your_super_secret_key
 EMAIL_USER=your_mailtrap_user
