@@ -3,13 +3,13 @@
 Este es el backend de **Pokedex Manager**, una API REST construida con Node.js y Express. Proporciona endpoints para manejar usuarios, pokémones, autenticación JWT y envío de correos simulados usando Mailtrap.
 
 ## 📦 Instalación
-NOTA: Es Necesario tener instalado NodeJs en tu Computadora https://nodejs.org/es , para verificar que esta instalado en la termial de tu pc ejecuta el comando node -v y si no vez tu version de Node sera Necesario Instalarlo
+NOTA: Es Necesario tener instalado NodeJs en tu Computadora https://nodejs.org/es , para verificar que esta instalado en la termial de tu pc ejecuta el comando node -v y si no vez tu version de Node sera Necesario Instalarlo.
 
 NOTA: esperar a tener tanto la carpeta Frontend como La carpeta Backend en la Carpeta Llamada PokedexManager https://github.com/Efp0233/Pokedex-Frontend
-NOTA: 📧 La URI real se enviara por correo o vía privada, no se incluye en el repo por seguridad para que tenga acceso a la Base de datos con su estructura y datos de prueba despues de obtenerla pegarla en el .env y en compass es caso que se quiera ver la estructura
 
+NOTA: 📧 La URI real se enviara por correo o vía privada, no se incluye en el repo por seguridad para que tenga acceso a la Base de datos con su estructura y datos de prueba despues de obtenerla pegarla en el .env y en compass es caso que se quiera ver la estructura.
 
-NOTA: Por si no lo viste , Primero que nada En tu Computadora Crea una carpeta llamada PokedexManager y abrela con VScode
+NOTA: Por si no lo viste , Primero que nada En tu Computadora Crea una carpeta llamada PokedexManager y abrela con VScode.
 
 1. si lo quieres hacer manual descarga el repositorio "pokedex-backend" descomprimelo y guardalo dentro la carpeta PokedexManager o si lo vas a descargar por comando git espera al paso 4
 2. abre tu carpeta PokedexManager
